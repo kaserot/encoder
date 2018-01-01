@@ -1,16 +1,17 @@
 # encoder
 ffmpeg's wrapper
 
-## �@�\
+## 機能
 
-- ���x�ύX
-- �c�����ύX
-- GPU���g�������x�d���̃G���R�[�h
+- トリミング
+- 速度変更
+- 縦横幅変更
+- GPUを使った速度重視のエンコード
 
-## �g����
+## 使い方
 
-1. ffmpeg.exe�Ɠ����t�H���_�ɒu���Ă���
-2. encoder.bat��mp4���h���b�O�A���h�h���b�v
-3. �w���ɏ]����encode
+1. ffmpeg.exeと同じフォルダに置いておく
+2. encoder.batにmp4をドラッグアンドドロップ
+3. 指示に従ってencode
 
-�� h264_nvenc���g�p���Ă��邽�߁A���ɂ���Ă͓����Ȃ��Ǝv���܂��B
+※ h264_nvencを使用しているため、環境によっては動かないと思います。
